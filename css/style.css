@@ -1,0 +1,150 @@
+@import url('reset.css');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+span {
+    font-weight: bolder;
+    font-size: larger;
+    color: var(--cor-principal);
+}
+
+#logo-img{
+    align-items: center;
+    margin: auto;
+    padding: auto;
+}
+
+#login{
+    text-align: center;
+}
+
+.page{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, var(--cor-principal), var(--cor-secundaria));
+    transition: 2s;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 0px 10px 20px 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px;
+    transition: 2s;
+}
+
+.formLoginprof {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0px 10px 20px 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px;
+    transition: 2s;
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+}
+.formLogin input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+.formLogin input:focus {
+    border: 1px solid var(--cor-terciaria);
+}
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+.formLogin a {
+    display: inline-block;
+    font-size: 13px;
+    color: var(--cor-principal);
+    transition: all linear 160ms;
+}
+.formLogin a:hover {
+    color: var(--cor-terciaria);
+}
+#select-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+.btn{
+    background-color: var(--cor-principal);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+.btn:hover {
+    transform: scale(1.01);
+    background-color: var(--cor-principal);
+    color: #fff;
+}
+.btn-group{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 10px;
+}
+.form-barema{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+.form-barema > div{
+    display: flex;
+    flex-direction: column;
+    border-color: var(--cor-principal);
+}
+.selectAtv{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+@media (max-width: 950px){
+    .form-barema{
+        display: flex;
+        flex-direction: column;
+        margin-inline: 50px;
+        gap: 20px;
+    }
+}
