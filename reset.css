@@ -16,6 +16,37 @@
     font-size: 16px;
   }
   
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+span {
+  font-weight: bolder;
+  font-size: larger;
+  color: var(--cor-principal);
+}
+
+#logo-img{
+  align-items: center;
+  margin: auto;
+  padding: auto;
+}
+
+#login{
+  text-align: center;
+}
+
+.page{
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, var(--cor-principal), var(--cor-secundaria));
+}
   ul, ol {
     list-style: none;
   }
