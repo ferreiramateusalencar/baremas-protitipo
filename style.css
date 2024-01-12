@@ -111,6 +111,12 @@
 }
 
 @media (max-width: 950px){
+    .formLogin{
+        display: flex;
+        flex-direction: column;
+        margin-inline: 50px;
+        gap: 20px;
+    }
     .form-barema{
         display: flex;
         flex-direction: column;
@@ -119,6 +125,10 @@
     }
 }
 @media (max-width: 465px){
+    .select-user{
+        flex-direction: column;
+        gap: 10px;
+    }
     .selectAtv{
         flex-direction: column;
         gap: 10px;
