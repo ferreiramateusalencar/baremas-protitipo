@@ -25,7 +25,9 @@
 .areaLogin img {
     width: 420px;
 }
-
+#logo-img {
+    align-items: center;
+}
 .formLogin h1 {
     padding: 0;
     margin: 0;

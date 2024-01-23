@@ -30,6 +30,7 @@ span {
 }
 
 #logo-img{
+  display: flex;
   align-items: center;
   margin: auto;
   padding: auto;
