@@ -125,14 +125,23 @@
         margin-inline: 50px;
         gap: 20px;
     }
+    .avaliar-btn{
+        align-items: center;
+    }
 }
 @media (max-width: 465px){
     .select-user{
-        flex-direction: column;
         gap: 10px;
     }
     .selectAtv{
         flex-direction: column;
         gap: 10px;
+    }
+}
+@media (max-width: 322px){
+    .formLogin{
+        margin: auto;
+        padding-left: auto;
+
     }
 }
