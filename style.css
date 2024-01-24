@@ -144,4 +144,9 @@
         padding-left: auto;
 
     }
+    .page{
+        min-height: 80vh;
+        background-image: none;
+
+    }
 }
