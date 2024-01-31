@@ -105,8 +105,9 @@
 }
 .selectAtv{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
+    margin-bottom: 30px;
 }
 .table-container{
     overflow-x: auto;
@@ -134,19 +135,15 @@
         gap: 10px;
     }
     .selectAtv{
-        flex-direction: column;
         gap: 10px;
+        margin-bottom: 10px;
     }
 }
 @media (max-width: 322px){
     .formLogin{
         margin: auto;
-        padding-left: auto;
-
     }
     .page{
-        min-height: 80vh;
-        background-image: none;
-
+        min-height: auto;
     }
 }
